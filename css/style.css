@@ -1,2 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Carattere&family=Roboto+Slab&family=Roboto:wght@400;500;700&display=swap");
+body {
+  margin: 0;
+  text-align: center;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.brand-name {
+  color: #ffd700;
+  font-family: "Carattere", cursive;
+  font-size: 36px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 50px auto;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 24px;
+}
+
+nav a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQSxnSUFBWTtBQWFaO0VBQ0ksU0FBUztFQUNULGtCQUFrQjtBQ2J0Qjs7QURtQkE7RUFDSSxjQXBCZTtFQXFCZixpQ0FiNkI7RUFjN0IsZUFBZTtBQ2hCbkI7O0FEbUJBO0VBRVEscUJBQXFCO0VBQ3JCLGlCQUFpQjtBQ2pCekI7O0FEY0E7RUFNUSxxQkFBcUI7RUFDckIsa0JBQWtCO0FDaEIxQjs7QURTQTtFQVVRLHFCQUFxQjtBQ2Y3QiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

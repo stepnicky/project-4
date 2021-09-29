@@ -1,0 +1,42 @@
+// Global
+
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Roboto+Slab&family=Roboto:wght@400;500;700&display=swap');
+
+$color-one: #ffd700;
+$color-two: #eff2f5;
+$color-light: #ffffff;
+$color-dark: #000000;
+$color-grey: #c2c5cc; 
+
+$font-main: 'Roboto', sans-serif;
+$font-text: 'Roboto Slab', serif;
+$font-brand: 'Carattere', cursive;
+
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+
+// Navigation
+
+.brand-name {
+    color: $color-one;
+    font-family: $font-brand;
+    font-size: 36px;
+}
+
+nav {
+    ul {
+        list-style-type: none;
+        margin: 50px auto;
+    }
+    li {
+        display: inline-block;
+        margin-right: 24px;
+    }
+    a {
+        text-decoration: none;
+    }
+ }
