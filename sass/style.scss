@@ -33,7 +33,7 @@ section {
     margin-bottom: 16px;
     color: $color-grey;
 }
-h3 {
+.subsection-title {
     font-family: $font-main;
     margin-top: 21px;
     margin-bottom: 0;
@@ -174,5 +174,29 @@ button {
             font-size: 14px;
             font-style: italic;
         }
+    }
+}
+
+// Footer
+
+footer {
+    padding: 43px;
+    .copyrights {
+        margin-top: 10px;
+    }
+    small {
+        color: $color-grey;
+        font-family: $font-text;
+        font-size: 14px;
+    }
+    i {
+        font-size: 20px;
+        color: $color-light;
+        background-color: $color-dark;
+        height: 43px;
+        width: 43px;
+        border-radius: 50%;
+        padding-top: 10px;
+        margin-left: 10px;
     }
 }
