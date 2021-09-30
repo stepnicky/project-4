@@ -25,18 +25,78 @@ body {
     color: $color-one;
     font-family: $font-brand;
     font-size: 36px;
+    transition: all 1s;
+    &:hover {
+        color: #d4af37;
+        cursor: pointer;
+    }
 }
 
 nav {
+    height: 15%;
     ul {
         list-style-type: none;
         margin: 50px auto;
     }
     li {
         display: inline-block;
-        margin-right: 24px;
+        margin-right: 36px;
     }
     a {
         text-decoration: none;
+        color: $color-light;
+        font-family: $font-main;
+        transition: all 1s;
+        &:hover {
+            color: $color-one;
+        }
     }
  }
+
+//  Splash
+
+.image-container {
+    background-image: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.splash {
+    position: relative;
+    height: 85%;
+}
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.page-title {
+    font-size: 50px;
+    font-family: $font-text;
+    font-style: italic;
+    color: $color-light;
+}
+.page-subtitle {
+    font-size: 80px;
+    font-family: $font-main;
+    margin-top: 30px;
+    
+    color: $color-light;
+}
+button {
+    color: $color-light;
+    background-color: $color-one;
+    padding: 25px 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3%;
+    font-family: $font-main;
+    transition: all 1s;
+    &:hover {
+        background-color: #d4af37;
+        cursor: pointer;
+    }
+}
