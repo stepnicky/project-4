@@ -135,6 +135,7 @@ button {
     }
     .service-box {
         margin-top: 60px;
+        min-width: 200px;
         p {
             font-family: $font-text;
             font-size: 14px;
@@ -152,6 +153,7 @@ button {
     .card {
         margin: 56px 10px 0 10px;
         background-color: $color-light;
+        min-width: 200px;
     }
     .image-box {
         
@@ -224,5 +226,8 @@ footer {
     }
     .subsection-title {
         font-size: 16px;
+    }
+    footer i {
+        margin-top: 25px;
     }
 }
